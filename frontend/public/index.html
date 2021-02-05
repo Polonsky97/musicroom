@@ -10,17 +10,18 @@
     />
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
     {% load static %}
+    <title>Music Controller</title>
 
-  
-    <title>React App</title>
     <link rel='stylesheet' type="text/css" href="{% static 'static/css/index.css' %}" />
+  
   </head>
   <body>
 
     <div id="root">
     </div>
 
-    <script src='{% static "index.js" %}'></script>
+    <script type='module' src='{% static "index.js" %}'></script>
   </body>
 </html>
